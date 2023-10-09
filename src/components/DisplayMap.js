@@ -159,7 +159,6 @@ const DisplayMap = ({ tasks, onLocationSelected, openPopup}) => {
   else {  
     return <div ref={mapRef} style={{ width: '100%', height: '600px', paddingTop: '100px', paddingBottom: '25px' }} />
   }
-
 };
 
 export default DisplayMap;
